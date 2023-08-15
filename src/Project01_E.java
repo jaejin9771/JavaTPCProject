@@ -20,8 +20,8 @@ public class Project01_E {
 			URL u = new URL(url);
 			HttpURLConnection con = (HttpURLConnection) u.openConnection();
 			con.setRequestMethod("GET");
-			con.setRequestProperty("X-NCP-APIGW-API-KEY-ID", "g597skyqv4");
-			con.setRequestProperty("X-NCP-APIGW-API-KEY", "nCMvBWWSJy3OAvrfQGxXV4xuvBUdsEAuxmeUxYzP");
+			con.setRequestProperty("X-NCP-APIGW-API-KEY-ID", "");
+			con.setRequestProperty("X-NCP-APIGW-API-KEY", "");
 			int responseCode = con.getResponseCode();
 			BufferedReader br;
 			if(responseCode==200) {
